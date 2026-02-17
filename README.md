@@ -2,7 +2,7 @@
 
 ![Snapshot_of_the_Dashboard](Dashboard.png)
 
-*Snapshot of the Simple Dashboard produced for this project.*
+**Snapshot of the Simple Dashboard produced for this project.**
 
 
 # INTRODUCTION
