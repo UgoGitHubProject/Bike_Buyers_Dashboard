@@ -1,6 +1,7 @@
 # Bike Buyers Dashboard
 
-![Snapshot of the Dashboard](Dashboard.png)*Snapshot of the Simple Dashboard produced for this project.*
+![Snapshot of the Dashboard](Dashboard.png)
+*Snapshot of the Simple Dashboard produced for this project.*
 
 
 # INTRODUCTION
