@@ -6,6 +6,7 @@
 
 
 # INTRODUCTION
+
 This project produced a simple dashboard using the dataset collected by a bike sales business. The dataset consisted of customer demographics and customer behavior.
 
 The dashboard used clearly labelled charts to present the results from the analysis of the CLEANED, UNFILTERED dataset, and the results from the analysis of the dataset (FILTERED based on Gender, Marital Status, and Region) as well.
@@ -13,6 +14,8 @@ The dashboard used clearly labelled charts to present the results from the analy
 Analysis of Customer Behavior based on age, gender, and income class produced invaluable insights that could be useful to the business. For instance, REGION PERFORMANCE ANALYSIS (in terms of conversion rate of customers) was actualized and presented.
 
 This project is SIMPLISTIC and involves only the use of the Data Validation Tool, Excel expressions, and Charts. Advanced tools like PIVOT TABLE, POWER QUERY, and POWER PIVOT were not involved.
+
+https://github.com/user-attachments/assets/076cab4b-c81b-46ad-87e7-0c7a90cc6da2
 
 #### P/S: 
 This is ONLY A SIMPLE ILLUSTRATION TO PRESENT A DIFFERENT INSIGHT INTO THE POPULAR DATASET.
