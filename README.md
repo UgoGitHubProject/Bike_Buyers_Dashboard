@@ -26,7 +26,7 @@ Organizations rely on data to enable them to understand their business performan
 
 A Bike Sales Outlet, ABS Cycles, collected Bike Buyers Data comprising customer personal information, and customer behavior (whether they made a purchase or not) from three regions where the business operated. The business wanted to know if this available data was useful in any way, and if the dataset could subsequently provide insights that could form a basis for any future decision.
 
-The following are the questions in need of answers;
+The following are the questions to be answered;
 1.	Can any information (useful to the business operation) be derived from the data set?
 
 2.	Is the business Gender specific? What is the distribution of gender in the business data?
