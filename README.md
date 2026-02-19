@@ -1,6 +1,8 @@
 # Bike Buyers Dashboard
 
-![Snapshot_of_the_Dashboard](Dashboard.png)
+https://github.com/user-attachments/assets/076cab4b-c81b-46ad-87e7-0c7a90cc6da2
+
+
 
 **Snapshot of the Simple Dashboard produced for this project.**
 
@@ -15,7 +17,7 @@ Analysis of Customer Behavior based on age, gender, and income class produced in
 
 This project is SIMPLISTIC and involves only the use of the Data Validation Tool, Excel expressions, and Charts. Advanced tools like PIVOT TABLE, POWER QUERY, and POWER PIVOT were not involved.
 
-https://github.com/user-attachments/assets/076cab4b-c81b-46ad-87e7-0c7a90cc6da2
+
 
 #### P/S: 
 This is ONLY A SIMPLE ILLUSTRATION TO PRESENT A DIFFERENT INSIGHT INTO THE POPULAR DATASET.
