@@ -1,7 +1,7 @@
 # Bike Buyers Dashboard
 
-https://github.com/user-attachments/assets/076cab4b-c81b-46ad-87e7-0c7a90cc6da2
 
+https://github.com/user-attachments/assets/7a653adf-cba6-4843-ab18-ff719a1a6de1
 
 
 **Snapshot of the Simple Dashboard produced for this project.**
