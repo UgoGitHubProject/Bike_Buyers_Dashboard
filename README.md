@@ -1,4 +1,4 @@
-# Bike Buyers Dashboard
+# Bike Buyers Analysis
 
 
 https://github.com/user-attachments/assets/7a653adf-cba6-4843-ab18-ff719a1a6de1
