@@ -118,7 +118,7 @@ Alternative commands that achieve the same results are ;
 
 *Chart showing variation of Customer Behavior and Conversion Rate by Gender*
 
-### Key Findings:
+### Key Finding(s):
 
 1. Based on gender, there was an equal magnitude in the number of CUSTOMERS that visited. Only a 4% percent difference in the number of visitors.
 
