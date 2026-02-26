@@ -116,7 +116,7 @@ Alternative commands that achieve the same results are ;
 ```
 ![Customer_Behavior_and_CVR_by_Gender](images/Customer_Behavior_CVR_by_Gender.png)
 
-*Chart showing variation of Customer Behavior and Conversio Rate by Gender*
+*Chart showing variation of Customer Behavior and Conversion Rate by Gender*
 
 ### Key Findings:
 
