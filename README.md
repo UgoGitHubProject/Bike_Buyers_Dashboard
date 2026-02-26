@@ -87,7 +87,7 @@ A **VISUAL INSPECTION** of the dataset was performed to identify and to understa
 
 
 
-## Q2: Does the business appeal to a particular gender?
+## Q2: Is the business gender specific?
 
 This dealt with investigating whether a particular gender patronized the business more than others.
 
