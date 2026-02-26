@@ -53,11 +53,15 @@ To analyze the data and present the results, certain tools were needed. For this
 
 2. To perform data transformation (by modifying data structure, value, and format) and data manipulation (by applying logic to derive different and more refined data) to ensure data consistency.
 
-3. Apply the Data Validation tool used constrain data selection to a predefined set and provide the values used in dataset filtering.
+3. Apply the Data Validation tool used to constrain data selection to a predefined set and provide the values used in dataset filtering.
 
-4. Prepare the Charts and other visuals that compose the dashboard.
+4. Construct the Charts and other visuals that compose the dashboard.
 
 # The Analyses
+
+This section deals with the assessment of the dataset in the attempt to answer the questions earlier stated.
+
+The techniques applied in the assessment and in deriving the results as well as the results obtained are presented.
 ## Q1. Can any information (useful to the business operation) be derived from the dataset?
 
 This question addresses the issue of whether the dataset collected by the organization (if interrogated) can produce any helpful information to the (future operations of the) business.
@@ -67,27 +71,59 @@ A **VISUAL INSPECTION** of the dataset was performed to identify and to understa
 
 [See Bike Buyers Dataset here](/Excel%20Project%20Dataset_from_AlexTheAnalyst.csv)
 
+### Key Finding(s):
 
-### Key Findings:
-
-From inspection of the dataset, it comprised mostly of customers’ information (a.k.a customer demographics), WHICH IS USEFUL TO THE BUSINESS’S MARKETING STRATEGY.
-
-
-The dataset presented information on whether a customer purchased a bike or not. This customer behavior was critical to the evaluation of CONVERSION RATE, a key performance indicator that indicates the percentage of visitors that ended up as buyers.
+1. From inspection, the dataset comprised mostly of customers’ information (a.k.a customer demographics), WHICH IS USEFUL TO THE BUSINESS’S MARKETING STRATEGY.
 
 
-### Business Insight:
+2. The dataset presented information on whether a customer purchased a bike or not. This customer behavior was critical to the evaluation of CONVERSION RATE, a key performance indicator that shows the percentage of visitors that ended up as buyers.
 
-CUSTOMER DEMOGRAPHIC data made available, which is useful for MARKETING STRATEGY development.
 
-CONVERSION RATE, a key performance indicator, was derived to evaluate both Customer and Region Performance. **In the retail business, knowledge of the percentage of customers who made a purchase on visiting a business is vital.**
+### Business Insight(s):
+
+1. **CUSTOMER DEMOGRAPHIC** data made available, which is useful for MARKETING STRATEGY development.
+
+2. Performance evaluation of Customers and Region were made poossible by the  **CONVERSION RATE**, a key performance indicator. **In the retail business, knowledge of the percentage of customers who made a purchase on visiting a business is vital.**
 
 
 
 ## Q2: Does the business appeal to a particular gender?
 
-The focus here was to determine whether the business operation was skewed to a particular gender. This dealt with investigating whether a particular gender patronized the business more than others.
+This dealt with investigating whether a particular gender patronized the business more than others.
 
-Answering this question involved calculating the total number of customers that visited, the total number of customers that made a purchase, and the conversion rate of the customers (from ALL LOCATIONS) by gender. 
+1. The dataset was cleaned, transformed, and manipulated. Afterwhich it was converted to a table and named appropriately (Bike_Customers_Data).
 
-Different separate Excel expressions were formulated to filter for the number of visitors, and the number of visitors THAT MADE A PURCHASE, all as a function of the stated gender.
+2. The total number of customers that visited, the total number of customers that made a purchase, and the conversion rate of the customers (from ALL LOCATIONS) by gender were calculated. 
+
+3. Different separate Excel expressions were formulated to filter for the number of visitors, and the number of visitors THAT MADE A PURCHASE, all as a function of the stated gender.
+
+Excel commands applied include;
+``` Excel
+
+=COUNTIF(Bike_Customers_Data[Gender],A3)
+
+=COUNTIFS(Bike_Customers_Data[Gender],A3,Bike_Customers_Data[Purchased Bike],"Yes")
+
+```
+
+Alternative commands that achieve the same results are ;
+```Excel
+
+=SUMPRODUCT(--(Bike_Customers_Data[Gender]=A3))
+
+=SUMPRODUCT(--(Bike_Customers_Data[Gender]=A3)*(Bike_Customers_Data[Purchased Bike]="Yes"))
+
+```
+![Customer_Behavior_and_CVR_by_Gender](images/Customer_Behavior_CVR_by_Gender.png)
+
+### Key Findings:
+
+1. Based on gender, there was an equal magnitude in the number of CUSTOMERS that visited. Only a 4% percent difference in the number of visitors.
+
+2. An almost equal number of customers (by gender) made a purchase; a one percent (1%) difference.
+
+3. Conversion Rate (CVR) by gender varied by two (2) percentage points; 49% to 47%.
+Though the business had a lower number of female visitors, a fractionally higher percentage made a purchase.
+
+### Business Insight(s):
+1. The company should continue with the types of bikes being sold as all genders seem to find a product that appealed to them.
