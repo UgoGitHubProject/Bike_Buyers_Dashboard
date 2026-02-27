@@ -83,7 +83,7 @@ A **VISUAL INSPECTION** of the dataset was performed to identify and to understa
 
 1. **CUSTOMER DEMOGRAPHIC** data made available, which is useful for MARKETING STRATEGY development.
 
-2. Performance evaluation of Customers and Region were made poossible by the  **CONVERSION RATE**, a key performance indicator. **In the retail business, knowledge of the percentage of customers who made a purchase on visiting a business is vital.**
+2. Performance evaluation of Customers and Region were made possible by the  **CONVERSION RATE**, a key performance indicator. **In the retail business, knowledge of the percentage of customers who made a purchase on visiting a business is vital.**
 
 
 
