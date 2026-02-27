@@ -106,7 +106,7 @@ Excel formulae applied include;
 
 ```
 
-Alternative formulae that achieve the same results are ;
+Alternative formulae that achieved the same results are ;
 ```Excel
 
 =SUMPRODUCT(--(Bike_Customers_Data[Gender]=A3))
@@ -139,4 +139,4 @@ Though the business had a lower number of female visitors, a fractionally higher
 
 1. The bike buyers' dataset contained information that is useful to the operations of ABS Cycles.
 
-2. The business is NOT gender specific as there was no LARGE difference in number of visits, number of  purchasers, and conversio rate in terms of gender of customers.
+2. The business is NOT gender specific as there was no LARGE difference in number of visits, number of  purchasers, and conversion rate in terms of gender of customers.
