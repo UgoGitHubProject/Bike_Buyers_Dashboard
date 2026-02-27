@@ -93,11 +93,11 @@ This dealt with investigating whether a particular gender patronized the busines
 
 1. The dataset was cleaned, transformed, and manipulated. Afterwhich it was converted to a table and named appropriately (Bike_Customers_Data).
 
-2. The total number of customers that visited, the total number of customers that made a purchase, and the conversion rate of the customers (from ALL LOCATIONS) by gender were calculated. 
+2. Different separate Excel formulae were applied to filter for the number of visitors, and the number of visitors THAT MADE A PURCHASE, all as a function of the stated gender.
 
-3. Different separate Excel expressions were formulated to filter for the number of visitors, and the number of visitors THAT MADE A PURCHASE, all as a function of the stated gender.
+3. The total number of customers that visited, the total number of customers that made a purchase, and the conversion rate of the customers (from ALL LOCATIONS) by gender were calculated. 
 
-Excel commands applied include;
+Excel formulae applied include;
 ``` Excel
 
 =COUNTIF(Bike_Customers_Data[Gender],A3)
@@ -106,7 +106,7 @@ Excel commands applied include;
 
 ```
 
-Alternative commands that achieve the same results are ;
+Alternative formulae that achieve the same results are ;
 ```Excel
 
 =SUMPRODUCT(--(Bike_Customers_Data[Gender]=A3))
