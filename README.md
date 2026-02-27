@@ -128,4 +128,15 @@ Alternative commands that achieve the same results are ;
 Though the business had a lower number of female visitors, a fractionally higher percentage made a purchase.
 
 ### Business Insight(s):
-1. The company should continue with the types of bikes being sold as all genders seem to find a product that appealed to them.
+1. The company should continue with the types of bikes being sold as all genders equally patronized the business.
+
+
+### Q3: Which age group is MORE LIKELY to make a purchase?
+
+
+
+# Conclusion(s):
+
+1. The bike buyers' dataset contained information that is useful to the operations of ABS Cycles.
+
+2. The business is NOT gender specific as there was no LARGE difference in number of visits, number of  purchasers, and conversio rate in terms of gender of customers.
