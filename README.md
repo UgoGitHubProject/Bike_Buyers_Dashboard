@@ -45,9 +45,9 @@ The following are the questions to be answered;
 
 # Tools (I) Used
 
-To analyze the data and present the results, certain tools were needed. For this project, only one tool was applied, which was capable of analyzing the data and producing visualizations of the results. 
+To analyze the data and present the results, certain tools were needed. These included: 
 
-**Microsoft Excel** was the ONLY tool used in this project
+**Microsoft Excel** was the ONE tool used in this project to analyze the data and produce visualizations of the results. 
 
 1. To perform data cleaning, such as checking for missing values and removing duplicate records.
 
@@ -56,6 +56,18 @@ To analyze the data and present the results, certain tools were needed. For this
 3. Apply the Data Validation tool used to constrain data selection to a predefined set and provide the values used in dataset filtering.
 
 4. Construct the Charts and other visuals that compose the dashboard.
+
+**VS Code** is the Code Editor that was used to document the project and write sql queries that communicate with the database. 
+
+1. To develop the ReadMe file which documents all the analysis performed in the course of the project.
+
+2. To organize the files and folders of the data and visuals developed.
+
+**Git and GitHub** Git is the Verson Control software that was used to co-ordinate all the efforts and actions taken in the course of the project. It also serves as the Local Repositiory.
+
+GitHub is the web based remote repository of files and folders.
+
+1. Used to share the project with others and enhance collaboration.
 
 # The Analyses
 
@@ -133,6 +145,22 @@ Though the business had a lower number of female visitors, a fractionally higher
 
 ### Q3: Which age group is MORE LIKELY to make a purchase?
 
+The objective here was to evaluate the distribution of behavior and conversion rate of customers by age. This involved determining the age range that had the most visits, made the most purchase and the highest purchase conversion.
+
+1. After cleaning the dataset, data manipulation was performed on the age parameter.
+
+2. The Data manipulation involved placing the age values into six (6) groups, starting from less than 25 years and ending at a group of 65 years and above. 
+
+3. Different separate Excel expressions were formulated to determine the number of visits, and the number of visitors THAT MADE A PURCHASE, all as a function of age group.  
+
+4. The total number of customers that visited, the total number of customers that made a purchase, and the conversion rate of the customers (from ALL LOCATIONS) by the age groups created was calculated.
+
+Excel formulae applied include;
+``` Excel
+
+
+
+```
 
 
 # Conclusion(s):
