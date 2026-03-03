@@ -63,11 +63,13 @@ To analyze the data and present the results, certain tools were needed. These in
 
 2. To organize the files and folders of the data and visuals developed.
 
-**Git and GitHub** Git is the Verson Control software that was used to co-ordinate all the efforts and actions taken in the course of the project. It also serves as the Local Repositiory.
+**Git and GitHub** Git is the Version Control software that was used to co-ordinate all the efforts and actions taken in the course of the project. It also served in the creation of the Local Repositiory.
 
 GitHub is the web based remote repository of files and folders.
 
 1. Used to share the project with others and enhance collaboration.
+
+2. Used to track the changes made to the project in the course of making it available to the public.
 
 # The Analyses
 
@@ -145,7 +147,7 @@ Though the business had a lower number of female visitors, a fractionally higher
 
 ### Q3: Which age group is MORE LIKELY to make a purchase?
 
-The objective here was to evaluate the distribution of behavior and conversion rate of customers by age. This involved determining the age range that had the most visits, made the most purchase and the highest purchase conversion.
+The objective here was to evaluate the distribution of behavior and conversion rate of customers by age. In other words, determine the most valuable customers by age group. 
 
 1. After cleaning the dataset, data manipulation was performed on the age parameter.
 
@@ -158,10 +160,31 @@ The objective here was to evaluate the distribution of behavior and conversion r
 Excel formulae applied include;
 ``` Excel
 
+=COUNTIF(Bike_Customers_Data[Age_Group],A3)
 
+=COUNTIFS(Bike_Customers_Data[Age_Group],A3,Bike_Customers_Data[Purchased Bike],"Yes")
 
 ```
 
+Alternative formulae that achieved the same results are ;
+
+```Excel
+
+=SUMPRODUCT(--(Bike_Customers_Data[Age_Group]=A3))
+
+=SUMPRODUCT(--((Bike_Customers_Data[Age_Group]=A3) * (Bike_Customers_Data[Purchased Bike] = "Yes")))
+
+```
+![Customer_Behavior_by_AgeGroup](images/Customer_Behavior_by_AgeGroup.png)
+
+*Chart of Customer Behavior by Age Group*
+
+![Conversion_Rate_of_Customer_by_AgeGroup](images/CVR_by_AgeGroup.png)
+
+*Chart of Customer Convertion Rate by Age Group*
+### Key Finding(s):
+
+### Business Insight(s):
 
 # Conclusion(s):
 
