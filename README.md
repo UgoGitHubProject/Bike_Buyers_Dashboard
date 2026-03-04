@@ -181,7 +181,7 @@ Alternative formulae that achieved the same results are ;
 
 ![Conversion_Rate_of_Customer_by_AgeGroup](images/CVR_by_AgeGroup.png)
 
-*Chart of Customer Convertion Rate by Age Group*
+*Chart of Customer Convertion Rate in Age Group*
 ### Key Finding(s):
 
 ### Business Insight(s):
