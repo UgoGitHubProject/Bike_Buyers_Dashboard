@@ -142,7 +142,7 @@ Alternative formulae that achieved the same results are ;
 Though the business had a lower number of female visitors, a fractionally higher percentage made a purchase.
 
 ### Business Insight(s):
-1. The company should continue with the types of bikes being sold as all genders equally patronized the business.
+1. Equal patronage from all genders, an indicatinon that the products were appealing to all customers. 
 
 
 ### Q3: Which age group is MORE LIKELY to make a purchase?
@@ -185,6 +185,9 @@ Alternative formulae that achieved the same results are ;
 ### Key Finding(s):
 
 ### Business Insight(s):
+
+# Recommendation(s):
+1. The company should continue with the types of bikes being sold as all genders equally patronized the business.
 
 # Conclusion(s):
 
