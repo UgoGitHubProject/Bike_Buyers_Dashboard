@@ -105,11 +105,11 @@ A **VISUAL INSPECTION** of the dataset was performed to identify and to understa
 
 This dealt with investigating whether a particular gender patronized the business more than others.
 
-1. The dataset was cleaned, transformed, and manipulated. Afterwhich it was converted to a table and named appropriately (Bike_Customers_Data).
+- The dataset was cleaned, transformed, and manipulated. Afterwhich it was converted to a table and named appropriately (Bike_Customers_Data).
 
-2. Different separate Excel formulae were applied to filter for the number of visitors, and the number of visitors THAT MADE A PURCHASE, all as a function of the stated gender.
+- Different separate Excel formulae were applied to filter for the number of visitors, and the number of visitors THAT MADE A PURCHASE, all as a function of the stated gender.
 
-3. The total number of customers that visited, the total number of customers that made a purchase, and the conversion rate of the customers (from ALL LOCATIONS) by gender were calculated. 
+- The total number of customers that visited, the total number of customers that made a purchase, and the conversion rate of the customers (from ALL LOCATIONS) by gender were calculated. 
 
 Excel formulae applied include;
 ``` Excel
@@ -149,13 +149,13 @@ Though the business had a lower number of female visitors, a fractionally higher
 
 The objective here was to evaluate the distribution of behavior and conversion rate of customers by age. In other words, determine the most valuable customers by age group. 
 
-1. After cleaning the dataset, data manipulation was performed on the age parameter.
+- After cleaning the dataset, data manipulation was performed on the age parameter.
 
-2. The Data manipulation involved placing the age values into six (6) groups, starting from less than 25 years and ending at a group of 65 years and above. 
+- The Data manipulation involved placing the age values into six (6) groups, starting from less than 25 years and ending at a group of 65 years and above. 
 
-3. Different separate Excel expressions were formulated to determine the number of visits, and the number of visitors THAT MADE A PURCHASE, all as a function of age group.  
+- Different separate Excel expressions were formulated to determine the number of visits, and the number of visitors THAT MADE A PURCHASE, all as a function of age group.  
 
-4. The total number of customers that visited, the total number of customers that made a purchase, and the conversion rate of the customers (from ALL LOCATIONS) by the age groups created was calculated.
+- The total number of customers that visited, the total number of customers that made a purchase, and the conversion rate of the customers (from ALL LOCATIONS) by the age groups created was calculated.
 
 Excel formulae applied include;
 ``` Excel
