@@ -142,7 +142,7 @@ Alternative formulae that achieved the same results are ;
 Though the business had a lower number of female visitors, a fractionally higher percentage made a purchase.
 
 ### Business Insight(s):
-1. Equal patronage from all genders, an indicatinon that the products were appealing to all customers. 
+1. Equal patronage from all genders, an indication that the products were appealing to all customers. 
 
 
 ### Q3: Which age group is MORE LIKELY to make a purchase?
