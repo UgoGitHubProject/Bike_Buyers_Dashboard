@@ -38,9 +38,8 @@ The following are the questions to be answered;
 1.	Can any information (useful to the business operation) be derived from the data set?
 2.	Is the business Gender specific? 
 3.	Which age group is MORE LIKELY to make a purchase?
-4.	What Income Groups did the business appeal to? 
-5.	Which Region had the most visits?
-6.	Which Region had the highest conversion rate (i.e., the highest percentage of visitors that made a purchase)?
+4.	How did the Customers Behave in Each region ?
+5. What Income Groups did the business appeal to? 
 
 
 # Tools (I) Used
@@ -184,7 +183,23 @@ Alternative formulae that achieved the same results are ;
 *Chart of Customer Convertion Rate in Age Group*
 ### Key Finding(s):
 
+1. Customers between the ages of 35 and 44 years made the most purchases and visits, while customers between the ages of 65 years and above made the lowest purchases and visits.
+
+2. More than fifty percent (50%) of the customers that visited were within the ages of 35 to 54 years, while almost eighty percent (80%) of visitors were within the 25 to 54 years age bracket.
+
+3. Customers between the ages of 35 and 44 years had the highest conversion rate (60%), followed by 55 to 64 years (51%), and 25 to 34 years (42%). The age range of 65 years and above had the lowest conversion rate at 29%.
+
+
 ### Business Insight(s):
+
+1. The Most Valuable Customers to the business were within the ages of 25 and 54 years inclusive.
+
+2. Of the Most Valuable Customers, those within the age group of 35 to 44 years had the highest likelihood of purchasing a bike.
+
+3. Customers can be segmented into High-Value, Mid-Value, and Low-Value tiers by age group based on the conversion rate values.
+
+
+# 4. How did the Customers Behave in Each Region?
 
 # Recommendation(s):
 1. The company should continue with the types of bikes being sold as all genders equally patronized the business.
