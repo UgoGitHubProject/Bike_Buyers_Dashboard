@@ -222,14 +222,15 @@ Excel formulae applied include;
 ![Customer_Behavior_and_CVR_by_Region](images/Customer_Behavior_and_CVR_by_Region.png)
 ### Key Finding(s):
 
-1. In North America and Europe, the number of customers who did not make a purchase were lesser than the number of customers who made a purchase.
+1. In North America and Europe, the number of customers who did not make a purchase were lesser than those who did.
 
 2. Pacific was the only region where the number of customers who made a purchase exceeded those who did not.
-North America had the highest total number of customers, while the Pacific had the lowest.
 
-3. In Europe, the number of customers who made a purchase (148) was almost equal to those who did not (152).
+3. North America had the highest total number of customers, while the Pacific had the lowest.
 
-4. Though Pacific had the fewest customers, it had the highest customer conversion rate (59%) compared to Europe (49%) and North America (43%).
+4. In Europe, the number of customers who made a purchase (148) was almost equal to those who did not (152).
+
+5. Though Pacific had the fewest customers, it had the highest customer conversion rate (59%) compared to Europe (49%) and North America (43%).
 
 
 ### Business Insight(s):
