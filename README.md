@@ -106,9 +106,11 @@ This dealt with investigating whether a particular gender patronized the busines
 
 - The dataset was cleaned, transformed, and manipulated. Afterwhich it was converted to a table and named appropriately (Bike_Customers_Data).
 
-- Different separate Excel formulae were applied to filter for the number of visitors, and the number of visitors THAT MADE A PURCHASE, all as a function of the stated gender.
+- Different separate Excel formulae were FORMULATED to filter for the number of visitors, and the number of visitors THAT MADE A PURCHASE, all as a function of the stated gender.
 
 - The total number of customers that visited, the total number of customers that made a purchase, and the conversion rate of the customers (from ALL LOCATIONS) by gender were calculated. 
+
+**NOTE:** The Conversion Rate (CVR) is with respect to the total visits BY EACH GENDER.
 
 Excel formulae applied include;
 ``` Excel
@@ -152,9 +154,11 @@ The objective here was to evaluate the distribution of behavior and conversion r
 
 - The Data manipulation involved placing the age values into six (6) groups, starting from less than 25 years and ending at a group of 65 years and above. 
 
-- Different separate Excel expressions were formulated to determine the number of visits, and the number of visitors THAT MADE A PURCHASE, all as a function of age group.  
+- Different separate Excel expressions were formulated for the number of visits, and the number of visitors THAT MADE A PURCHASE, all as a function of age group.  
 
 - The total number of customers that visited, the total number of customers that made a purchase, and the conversion rate of the customers (from ALL LOCATIONS) by the age groups created was calculated.
+
+**NOTE:** The Conversion Rate (CVR) is with respect to the total visits IN EACH AGE GROUP.
 
 Excel formulae applied include;
 ``` Excel
@@ -201,8 +205,44 @@ Alternative formulae that achieved the same results are ;
 
 # 4. How did the Customers Behave in Each Region?
 
+This question aimed to assess the performance of each region where the organization operated, in terms of customer behavior and conversion rate. The purpose was to assess each region’s value to the business and whether it was possible to segment them into high, mid, and low tiers.
+
+- After data cleaning was concluded, further analysis was performed on the dataset to obtain the necessary information needed to answer the question.
+
+- The analysis involved formulating different separate Excel expressions for the number of visits, the number of visits that DID NOT MAKE A PURCHASE, and the number of visits that MADE A PURCHASE, for each region.  
+
+- The total number of customers who visited, the total number of customers who DID NOT make a purchase, the total number of customers who MADE a purchase, and the conversion rate for customers were calculated by the region.
+
+**NOTE:** The conversion rate was with respect to the total visits IN EACH REGION.
+
+Excel formulae applied include;
+``` Excel
+
+```
+![Customer_Behavior_and_CVR_by_Region](images/Customer_Behavior_and_CVR_by_Region.png)
+### Key Finding(s):
+
+1. In North America and Europe, the number of customers who did not make a purchase were lesser than the number of customers who made a purchase.
+
+2. Pacific was the only region where the number of customers who made a purchase exceeded those who did not.
+North America had the highest total number of customers, while the Pacific had the lowest.
+
+3. In Europe, the number of customers who made a purchase (148) was almost equal to those who did not (152).
+
+4. Though Pacific had the fewest customers, it had the highest customer conversion rate (59%) compared to Europe (49%) and North America (43%).
+
+
+### Business Insight(s):
+
+1. North America had the highest customer traffic; hence, it had the largest customer base for the business.
+ 
+2. The Pacific region, with the lowest customer traffic, was the most valuable to the business because it had the highest likelihood of turning visits into purchases.
+
+3. The regions can be segmented into High, Mid, and Low tiers based on the customer conversion rate or customer traffic.
+
+
 # Recommendation(s):
-1. The company should continue with the types of bikes being sold as all genders equally patronized the business.
+1. The company should continue selling the types of bikes it currently offers, as the customer behavior and conversion rate were not markedly influenced by gender.
 
 # Conclusion(s):
 
