@@ -270,7 +270,7 @@ results are ;
 
 2. Marketing Strategies should target customers between the ages of 25 to 54 years.
 
-3. Exand the business in the Pacific region as there is a higher tendecy for customers to make purchases there compared to other regions.
+3. Expand the business in the Pacific region as there is a higher tendecy for customers to make purchases there compared to other regions.
 
 # Conclusion(s):
 
