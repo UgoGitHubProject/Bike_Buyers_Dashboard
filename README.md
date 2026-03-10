@@ -218,7 +218,30 @@ This question aimed to assess the performance of each region where the organizat
 Excel formulae applied include;
 ``` Excel
 
+=COUNTIF(Bike_Customers_Data[Region],A3)
+
+=COUNTIFS(Bike_Customers_Data[Region],$A3,
+        Bike_Customers_Data[Purchased Bike],"Yes")
+
+=COUNTIFS(Bike_Customers_Data[Region],$A3,
+        Bike_Customers_Data[Purchased Bike],"No")
+
 ```
+
+Alternative formulae that achieved the same 
+results are ;
+
+```Excel
+
+=SUMPRODUCT(--(Bike_Customers_Data[Region]=A3))
+
+=SUMPRODUCT(--(Bike_Customers_Data[Region]=A3) * (Bike_Customers_Data[Purchased Bike]="Yes"))
+
+=SUMPRODUCT(--(Bike_Customers_Data[Region]=$A3) * (Bike_Customers_Data[Purchased Bike]="No"))
+
+```
+
+
 ![Customer_Behavior_and_CVR_by_Region](images/Customer_Behavior_and_CVR_by_Region.png)
 ### Key Finding(s):
 
@@ -244,6 +267,10 @@ Excel formulae applied include;
 
 # Recommendation(s):
 1. The company should continue selling the types of bikes it currently offers, as the customer behavior and conversion rate were not markedly influenced by gender.
+
+2. Marketing Strategies should target customers between the ages of 25 to 54 years.
+
+3. Exand the business in the Pacific region as there is a higher tendecy for customers to make purchases there compared to other regions.
 
 # Conclusion(s):
 
